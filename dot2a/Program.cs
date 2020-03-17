@@ -7,6 +7,20 @@ using System.Drawing;
 
 class KVADRAT
 {
+     static void Main(string[] args)
+            {
+                KVADRAT kv = new KVADRAT(4, 10, 3);
+            Console.WriteLine("Perimert");
+
+            Console.WriteLine(kv.Perimeter());
+
+            Console.WriteLine("Area");
+
+            Console.WriteLine(kv.Area());
+
+            Console.WriteLine("diagonal");
+
+            Console.WriteLine(kv.Diagonal());
 
     protected Point[] koord = new Point[4];
     public KVADRAT()
